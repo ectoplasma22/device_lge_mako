@@ -14,4 +14,8 @@
 # limitations under the License.
 #
 
+for i in codefirex eng user userdebug; do
+    add_lunch_combo full_hammerhead-${i}
+done
+
 add_lunch_combo aosp_mako-userdebug
