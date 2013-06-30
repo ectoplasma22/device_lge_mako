@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
+add_lunch_combo full_mako-codefirex
+add_lunch_combo full_mako-eng
 add_lunch_combo full_mako-userdebug
