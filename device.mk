@@ -42,12 +42,12 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/lge/mako-kernel/kernel
-
-PRODUCT_COPY_FILES := \
-	$(LOCAL_KERNEL):kernel
-endif
+#ifeq ($(TARGET_PREBUILT_KERNEL),)
+#LOCAL_KERNEL := device/lge/mako-kernel/kernel
+#
+#PRODUCT_COPY_FILES := \
+#	$(LOCAL_KERNEL):kernel
+#endif
 
 PRODUCT_COPY_FILES += \
 	device/lge/mako/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
