@@ -131,4 +131,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
+BOARD_HAVE_LOW_LATENCY_AUDIO := true
+
 -include vendor/lge/mako/BoardConfigVendor.mk
