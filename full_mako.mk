@@ -42,12 +42,14 @@ endif
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
 PRODUCT_NAME := full_mako
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Mako
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.3/JB_MR2/573038:user/release-keys
-PRIVATE_BUILD_DESC="occam-user 4.3 JB_MR2 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=occam \
+    BUILD_FINGERPRINT="google/occam/mako:4.3/JWR66V/737497:user/release-keys" \
+    PRIVATE_BUILD_DESC="occam-user 4.3 JWR66V 737497 release-keys"
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/mako/device.mk)
