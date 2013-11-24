@@ -15,7 +15,7 @@
 #
 
 for i in codefirex eng user userdebug; do
-    add_lunch_combo full_hammerhead-${i}
+    add_lunch_combo full_mako-${i}
 done
 
 add_lunch_combo aosp_mako-userdebug
