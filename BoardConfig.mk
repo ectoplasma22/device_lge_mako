@@ -100,9 +100,6 @@ TARGET_NO_RPC := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
-BOARD_USES_QCOM_HARDWARE := true
-COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
-
 BOARD_SEPOLICY_DIRS := \
        device/lge/mako/sepolicy
 
