@@ -48,4 +48,4 @@ PRIVATE_BUILD_DESC="occam-user 4.2 JOP40C 527662 release-keys"
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/mako/device.mk)
-$(call inherit-product-if-exists, vendor/lge/mako/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
